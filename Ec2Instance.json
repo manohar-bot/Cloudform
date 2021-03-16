@@ -4,7 +4,8 @@
     "Parameters": {
         "Keys": {
             "Description": "Select Key",
-            "Type": "AWS::EC2::KeyPair::KeyName"
+            "Type": "AWS::EC2::KeyPair::KeyName",
+	    "Default":"Manu"
         },
         "ImageID": {
             "Description": "Select Image-ID",
@@ -47,7 +48,7 @@
         "AZ2": {
             "Description": "Select AZ for Subnet Two",
             "Type": "String",
-            "Default": "ap-south-1a",
+            "Default": "ap-south-1b",
             "AllowedValues": [
                 "ap-south-1a",
                 "ap-south-1b",
