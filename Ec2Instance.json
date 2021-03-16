@@ -5,8 +5,8 @@
         "Keys": {
             "Description": "Select Key",
             "Type": "AWS::EC2::KeyPair::KeyName",
-	    "Default":"Manu"
-        },
+            "Default": "Manu"
+	}
         "ImageID": {
             "Description": "Select Image-ID",
             "Type": "String",
